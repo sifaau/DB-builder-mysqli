@@ -1,7 +1,7 @@
 <?php
 // nyoba modifikasi query builder, by sifa, 15/11/2016
 // DB DRIVER  :  Mysqli
-require_once __DIR__."config.php";
+require_once __DIR__."db_conf.php";
 class db_query_builder{
 
 	private $mysqli = NULL;
